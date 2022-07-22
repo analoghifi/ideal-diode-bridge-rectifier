@@ -23,4 +23,4 @@ Saligny Standard is our Ideal Bridge solution for most common applications. It i
 *    Continuous load current up to 20A or more depending on mosfet configuration.
 *    Over 200A pulsed current at Ta = 25Celsius ( Max Rθjc = 1.0C/W, pulse duration ≤100 μs, duty cycle ≤1%).
 *    **Require a minimum output capacitor of 1000μF**
-*    Do <u>not</u> support centre tapped transformer.
+*    Do **<ins>not</ins>** support centre tapped transformer.
