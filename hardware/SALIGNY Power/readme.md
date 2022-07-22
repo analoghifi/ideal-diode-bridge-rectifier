@@ -23,5 +23,5 @@ up to 60A output. Operate from 8 Vac up to 51 Vac and up to 100Hz. It is availab
 *    Iq = 1,5mA.
 *    Continuous load current up to 60A or more with heatsink.
 *    Over 350A pulsed current at Ta = 25Celsius ( Max Rθjc = 1.0C/W, pulse duration ≤100 μs, duty cycle ≤1%).
-*    Require a minimum output capacitor of 4700μF (low ESR)
-*    Do not support centre tapped transformer.
+*    **Require a minimum output capacitor of 4700μF (low ESR)**
+*    Do **<ins>not</ins>** support centre tapped transformer.
