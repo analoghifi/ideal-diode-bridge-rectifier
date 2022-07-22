@@ -21,5 +21,5 @@ Saligny LC - low current - offer very small solution size - 10 mm x 10 mm while 
 *    Iq = 1,5mA.
 *    Continuous load current up to 5A.
 *    Peak 8A – 500ms.
-*    Require a minimum output capacitor of 470uF
-*    Do not support centre tapped transformer.
+*    **Require a minimum output capacitor of 470uF**
+*    Do **<ins>not</ins>** support centre tapped transformer.
