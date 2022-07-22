@@ -1,0 +1,1531 @@
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+CAM_SECTION PARENT
+{
+CAM_VERSION V2007.0
+CAM_DOC_LIST PARENT
+{
+CAM_DOC_DIRECTORY C:\KIMT-PADS\DC1902B-1\PCB\CAM
+CAM_DOC_NAME 1:TOP
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE art001.lpr
+DOC_LAYER_NAMES 1-TOP
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 1
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Green None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME 2-PWR
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE art002.lpr
+DOC_LAYER_NAMES 2-PWR
+DOC_LAYER_NUMBERS 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 2
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME 3-PWR
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE art003.lpr
+DOC_LAYER_NAMES 3-PWR
+DOC_LAYER_NUMBERS 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 3
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME 4:BOT
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE art004.lpr
+DOC_LAYER_NAMES 4-BOT
+DOC_LAYER_NUMBERS 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 4
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Green None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Blue None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME TS
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE sst001026.lpr
+DOC_LAYER_NAMES 1-TOP Silkscreen_Top
+DOC_LAYER_NUMBERS 1 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 26
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES Black None
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS Y Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS color18 None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS color19 None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES MH
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 1
+}
+CAM_DOC_NAME BS
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE ssb004029.lpr
+DOC_LAYER_NAMES 4-BOT SilkBottom
+DOC_LAYER_NUMBERS 4 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 29
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None Black
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS color18 None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS color19 None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME TM
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE sm001021.lpr
+DOC_LAYER_NAMES 1-TOP SMask_Top
+DOC_LAYER_NUMBERS 1 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Green Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 152400
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES TG1,TG2,BG1,BG2
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME BM
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE sm004028.lpr
+DOC_LAYER_NAMES 4-BOT SMask_Bottom
+DOC_LAYER_NUMBERS 4 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Green Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 152400
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME FAB
+{
+DOC_PLOT_TYPE Drill_Drawing
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE dd001024.lpr
+DOC_LAYER_NAMES 1-TOP Drill_Drawing
+DOC_LAYER_NUMBERS 1 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Routing
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 19050000 -121920000
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-1
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-1.PHO
+DOC_LAYER_NAMES 1-TOP
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-2
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-2.PHO
+DOC_LAYER_NAMES 2-PWR
+DOC_LAYER_NUMBERS 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-3
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-3.PHO
+DOC_LAYER_NAMES 3-PWR
+DOC_LAYER_NUMBERS 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-4
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-4.PHO
+DOC_LAYER_NAMES 4-BOT
+DOC_LAYER_NUMBERS 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-TS
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-TS.PHO
+DOC_LAYER_NAMES 1-TOP Silkscreen_Top
+DOC_LAYER_NUMBERS 1 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES Black None
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES E,MH
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-BS
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-BS.pho
+DOC_LAYER_NAMES 4-BOT SilkBottom
+DOC_LAYER_NUMBERS 4 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None Black
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-TP
+{
+DOC_PLOT_TYPE Paste_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-TP.PHO
+DOC_LAYER_NAMES 1-TOP PMask_Top
+DOC_LAYER_NUMBERS 1 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Drill
+DOC_FABRICATION_LAYER_NUMBER 23
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES TG1,TG2,BG1,BG2
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-BP
+{
+DOC_PLOT_TYPE Paste_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902A2-BP.pho
+DOC_LAYER_NAMES 4-BOT PMask_Bottom
+DOC_LAYER_NUMBERS 4 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Drill
+DOC_FABRICATION_LAYER_NUMBER 22
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 11 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-TM
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-TM.PHO
+DOC_LAYER_NAMES 1-TOP SMask_Top
+DOC_LAYER_NUMBERS 1 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 21
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 152400
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES BG1,BG2,TG1,TG2,X
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-BM
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-BM.PHO
+DOC_LAYER_NAMES 4-BOT SMask_Bottom
+DOC_LAYER_NUMBERS 4 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 28
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 152400
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-FAB
+{
+DOC_PLOT_TYPE Drill_Drawing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE DC1902B1-FAB.PHO
+DOC_LAYER_NAMES 1-TOP Drill_Drawing
+DOC_LAYER_NUMBERS 1 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Routing
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 19050000 -125730000
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME GBR-NC DRILL
+{
+DOC_PLOT_TYPE NC_Drill
+DOC_DEVICE_TYPE Drill
+DOC_OUTPUT_FILE DC1902B1-drl001.drl
+DOC_LAYER_NAMES 1-TOP
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_DRILL_PLATED Y
+DOC_DRILL_NONPLATED Y
+DOC_DRILL_THRU_VIA Y
+DOC_DRILL_PARTIAL_VIA N
+DOC_DRILL_TESTPOINTS N
+DOC_REPEAT_COUNTS 0 0
+DOC_STEP_SIZES 0 0
+DOC_DRILL_LIST Y
+DOC_DRILL_FILE Y
+}
+CAM_DOC_NAME ASSY-TOP
+{
+DOC_PLOT_TYPE Assembly
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE adt0126.lpr
+DOC_LAYER_NAMES 1-TOP Silkscreen_Top Assembly_Top
+DOC_LAYER_NUMBERS 1 26 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane PasteMask
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 57150000 87630000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION BaseOption
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES Black None
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES Black None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS Y Y Y N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME ASSY-BOT
+{
+DOC_PLOT_TYPE Assembly
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE adb004030.lpr
+DOC_LAYER_NAMES 4-BOT SilkBottom Assembly_Bottom
+DOC_LAYER_NUMBERS 4 29 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane PasteMask
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR Y
+DOC_JUSTIFICATION CM
+DOC_OFFSET 0 0
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None Black
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y Y N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Aqua None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 1
+}
+CAM_DOC_NAME PLOT
+{
+DOC_PLOT_TYPE Verify_Photo
+DOC_DEVICE_TYPE Printer
+DOC_OUTPUT_FILE vfy000.lpr
+DOC_LAYER_NAMES "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+DOC_LAYER_NUMBERS 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION CM
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 1
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME N
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+DOC_VERIFY_INPUT_FILE C:\KIMT-PADS\DC1902B-1\PCB\CAM\DC1902B1-TS.PHO
+}
+}
+CAM_DRILL_SPEED_FEED_TABLE PARENT
+{
+DRILL_RANGE_1 381000 761619 95 300
+DRILL_RANGE_2 762000 1523619 197 550
+DRILL_RANGE_3 1524000 1904619 139 550
+DRILL_RANGE_4 1905000 2285619 107 550
+DRILL_RANGE_5 2286000 2666619 89 550
+DRILL_RANGE_6 2667000 3047619 81 550
+DRILL_RANGE_7 3048000 3428619 74 550
+DRILL_RANGE_8 3429000 3809619 66 550
+DRILL_RANGE_9 3810000 4571619 69 658
+DRILL_RANGE_10 4572000 5333619 35 794
+DRILL_RANGE_11 5334000 6095619 35 900
+DRILL_RANGE_12 6096000 7619619 35 1033
+}
+CAM_AUGMENT_ON_THE_FLY Y
+CAM_APERTURE_TABLE PARENT
+{
+APERTURE_1 10 2286000 0 RND
+APERTURE_2 11 5715000 0 RND
+APERTURE_3 12 2286000 0 SQR
+APERTURE_4 13 3048000 0 RND
+APERTURE_5 14 1143000 0 SQR
+APERTURE_6 15 647700 0 SQR
+APERTURE_7 16 914400 0 SQR
+APERTURE_8 17 1905000 0 SQR
+APERTURE_9 18 2667000 0 RND
+APERTURE_10 19 381000 0 RND
+APERTURE_11 20 762000 0 RND
+APERTURE_12 21 571500 0 RND
+APERTURE_13 22 1905000 0 RND
+APERTURE_14 23 1333500 0 RND
+APERTURE_15 24 266700 0 RND
+APERTURE_16 25 190500 0 RND
+APERTURE_17 26 304800 0 RND
+APERTURE_18 27 609600 0 RND
+APERTURE_19 28 457200 0 RND
+APERTURE_20 29 342900 0 RND
+APERTURE_21 30 228600 0 RND
+APERTURE_22 31 6096000 0 RND
+APERTURE_23 32 2667000 0 SQR
+APERTURE_24 33 3429000 0 RND
+APERTURE_25 34 1524000 0 SQR
+APERTURE_26 35 1028700 0 SQR
+APERTURE_27 36 1295400 0 SQR
+APERTURE_28 37 1714500 0 RND
+APERTURE_29 38 4191000 0 RND
+APERTURE_30 39 4572000 0 RND
+APERTURE_31 40 952500 0 RND
+APERTURE_32 41 381000 0 LINE
+APERTURE_33 42 1143000 0 SQRL
+APERTURE_34 43 647700 0 SQRL
+APERTURE_35 44 914400 0 SQRL
+APERTURE_36 45 1905000 0 SQRL
+APERTURE_37 46 762000 0 LINE
+APERTURE_38 47 571500 0 LINE
+APERTURE_39 48 1905000 0 LINE
+APERTURE_40 49 266700 0 LINE
+APERTURE_41 50 190500 0 LINE
+APERTURE_42 51 304800 0 LINE
+APERTURE_43 52 609600 0 LINE
+APERTURE_44 53 457200 0 LINE
+APERTURE_45 54 228600 0 LINE
+APERTURE_46 55 1524000 0 SQRL
+APERTURE_47 56 1028700 0 SQRL
+APERTURE_48 57 1295400 0 SQRL
+APERTURE_49 58 2286000 0 SQRL
+APERTURE_50 59 1333500 0 LINE
+APERTURE_51 60 952500 0 LINE
+APERTURE_52 61 3429000 0 SQRL
+APERTURE_53 62 1714500 0 SQRL
+APERTURE_54 63 3048000 0 SQRL
+APERTURE_55 64 1143000 0 LINE
+APERTURE_56 65 495300 0 LINE
+APERTURE_57 66 1524000 0 RND
+APERTURE_58 67 3810000 0 SQRL
+APERTURE_59 68 2095500 0 SQRL
+APERTURE_60 69 533400 0 LINE
+APERTURE_61 70 2857500 0 SQRL
+APERTURE_62 71 1524000 0 LINE
+APERTURE_63 72 3238500 0 SQRL
+APERTURE_64 73 2286000 0 LINE
+APERTURE_65 74 76200 0 LINE
+APERTURE_66 75 1143000 0 RND
+APERTURE_67 76 114300 0 RND
+APERTURE_68 77 914400 0 RND
+APERTURE_69 78 17145000 0 RND
+APERTURE_70 79 13716000 0 RND
+APERTURE_71 80 6858000 0 SQR
+APERTURE_72 81 6858000 0 RND
+APERTURE_73 82 6172200 0 SQR
+APERTURE_74 83 6172200 0 RND
+APERTURE_75 84 8001000 0 RND
+APERTURE_76 85 1485900 0 RND
+APERTURE_77 86 1714500 0 SQR
+APERTURE_78 87 2057400 0 SQR
+APERTURE_79 88 2057400 0 RND
+APERTURE_80 89 1066800 0 SQR
+APERTURE_81 90 3810000 0 RND
+APERTURE_82 91 2095500 0 SQR
+APERTURE_83 92 2438400 0 SQR
+APERTURE_84 93 2438400 0 RND
+APERTURE_85 94 1447800 0 SQR
+APERTURE_86 95 38100 0 RND
+APERTURE_87 96 533400 0 RND
+APERTURE_88 97 495300 0 RND
+APERTURE_89 98 1104900 0 SQR
+APERTURE_90 99 9525000 0 RND
+APERTURE_91 100 2857500 0 SQR
+APERTURE_92 101 3429000 0 SQR
+APERTURE_93 102 952500 0 SQR
+APERTURE_94 103 6477000 0 RND
+APERTURE_95 104 609600 0 SQR
+APERTURE_96 105 5334000 0 RND
+APERTURE_97 106 3048000 0 SQR
+APERTURE_98 107 11049000 0 RND
+APERTURE_99 108 8001000 0 THER
+APERTURE_100 109 5334000 0 THER
+APERTURE_101 110 3048000 0 THER
+APERTURE_102 111 2095500 0 RND
+APERTURE_103 112 2095500 0 THER
+APERTURE_104 113 4953000 0 RND
+APERTURE_105 114 1485900 0 SQR
+APERTURE_106 115 9906000 0 RND
+APERTURE_107 116 3238500 0 SQR
+APERTURE_108 117 3810000 0 SQR
+APERTURE_109 118 1333500 0 SQR
+APERTURE_110 119 990600 0 SQR
+APERTURE_111 120 571500 0 SQR
+APERTURE_112 121 1295400 0 RND
+APERTURE_113 122 1676400 0 RND
+APERTURE_114 123 1371600 0 SQR
+APERTURE_115 124 8953500 0 SQR
+APERTURE_116 125 13525500 0 SQR
+APERTURE_117 126 4953000 0 SQR
+APERTURE_118 127 4572000 0 SQR
+APERTURE_119 128 2057400 0 THER
+APERTURE_120 129 2476500 0 SQR
+APERTURE_121 130 1752600 0 SQR
+APERTURE_122 131 9334500 0 SQR
+APERTURE_123 132 1828800 0 SQR
+APERTURE_124 133 13906500 0 SQR
+APERTURE_125 134 4191000 0 SQR
+APERTURE_126 135 5334000 0 SQR
+APERTURE_127 136 2857500 0 RND
+APERTURE_128 137 2849880 0 SQR
+APERTURE_129 138 2849880 0 RND
+APERTURE_130 139 838200 0 SQR
+APERTURE_131 140 647700 0 RND
+APERTURE_132 141 2133600 0 SQR
+APERTURE_133 142 3086100 0 SQR
+APERTURE_134 143 3086100 0 RND
+APERTURE_135 144 3078480 0 SQR
+APERTURE_136 145 3078480 0 RND
+APERTURE_137 146 2514600 0 SQR
+APERTURE_138 147 2514600 0 RND
+APERTURE_139 148 2895600 0 SQR
+APERTURE_140 149 6705600 0 RND
+APERTURE_141 150 800100 0 SQR
+APERTURE_142 151 4800600 0 SQR
+APERTURE_143 152 9753600 0 RND
+APERTURE_144 153 2895600 0 RND
+APERTURE_145 154 1181100 0 SQR
+APERTURE_146 155 5562600 0 SQR
+APERTURE_147 156 445770 0 SQR
+APERTURE_148 157 457200 0 SQR
+APERTURE_149 158 419100 0 RND
+APERTURE_150 159 4800600 0 RND
+APERTURE_151 160 674370 0 SQR
+APERTURE_152 161 685800 0 SQR
+APERTURE_153 162 2705100 0 SQR
+APERTURE_154 163 876300 0 SQR
+APERTURE_155 164 1524000 838200 RECT
+APERTURE_156 165 838200 1524000 RECT
+APERTURE_157 166 1905000 445770 RECT
+APERTURE_158 167 2286000 1066800 RECT
+APERTURE_159 168 2476500 609600 RECT
+APERTURE_160 169 1524000 1143000 RECT
+APERTURE_161 170 1143000 1524000 RECT
+APERTURE_162 171 1524000 457200 RECT
+APERTURE_163 172 2476500 5715000 RECT
+APERTURE_164 173 2819400 0 RND
+APERTURE_165 174 1676400 990600 RECT
+APERTURE_166 175 4724400 0 RND
+APERTURE_167 176 2209800 0 SQR
+APERTURE_168 177 2209800 0 RND
+APERTURE_169 178 990600 1676400 RECT
+APERTURE_170 179 2057400 598170 RECT
+APERTURE_171 180 2438400 1219200 RECT
+APERTURE_172 181 2628900 762000 RECT
+APERTURE_173 182 1676400 1295400 RECT
+APERTURE_174 183 1295400 1676400 RECT
+APERTURE_175 184 1676400 609600 RECT
+APERTURE_176 185 2628900 5867400 RECT
+APERTURE_177 186 1066800 2286000 RECT
+APERTURE_178 187 457200 1524000 RECT
+APERTURE_179 188 609600 2286000 RECT
+APERTURE_180 189 647700 2476500 RECT
+APERTURE_181 190 1219200 2438400 RECT
+APERTURE_182 191 609600 1676400 RECT
+APERTURE_183 192 762000 2438400 RECT
+APERTURE_184 193 800100 2628900 RECT
+APERTURE_185 194 1447800 838200 RECT
+APERTURE_186 195 1333500 457200 RECT
+APERTURE_187 196 2476500 2095500 RECT
+APERTURE_188 197 2019300 1905000 RECT
+APERTURE_189 198 1905000 2095500 RECT
+APERTURE_190 199 3810000 2667000 RECT
+APERTURE_191 200 5867400 0 RND
+APERTURE_192 201 1600200 990600 RECT
+APERTURE_193 202 1485900 609600 RECT
+APERTURE_194 203 2628900 2247900 RECT
+APERTURE_195 204 2171700 2057400 RECT
+APERTURE_196 205 2057400 2247900 RECT
+APERTURE_197 206 4038600 2895600 RECT
+APERTURE_198 207 5943600 0 RND
+APERTURE_199 208 2247900 2133600 RECT
+APERTURE_200 209 663891 0 RND
+APERTURE_201 210 553242 0 RND
+APERTURE_202 211 829864 0 RND
+APERTURE_203 212 1106485 0 RND
+APERTURE_204 213 719215 0 RND
+APERTURE_205 214 497918 0 RND
+APERTURE_206 215 1936350 0 RND
+APERTURE_207 216 442594 0 RND
+APERTURE_208 217 1383107 0 RND
+APERTURE_209 218 1143000 1905000 RECT
+APERTURE_210 219 2476500 0 RND
+APERTURE_211 220 2667000 1905000 RECT
+APERTURE_212 221 2667000 2286000 RECT
+APERTURE_213 222 1905000 2019300 RECT
+APERTURE_214 223 3048000 1524000 RECT
+APERTURE_215 224 571500 2286000 RECT
+APERTURE_216 225 6096000 4572000 RECT
+APERTURE_217 226 952500 1905000 RECT
+APERTURE_218 227 2857500 952500 RECT
+APERTURE_219 228 2476500 914400 RECT
+APERTURE_220 229 2286000 1104900 RECT
+APERTURE_221 230 2286000 647700 RECT
+APERTURE_222 231 1714500 571500 RECT
+APERTURE_223 232 762000 1905000 RECT
+APERTURE_224 233 1905000 762000 RECT
+APERTURE_225 234 2095500 609600 RECT
+APERTURE_226 235 1714500 445770 RECT
+APERTURE_227 236 2095500 838200 RECT
+APERTURE_228 237 838200 2095500 RECT
+APERTURE_229 238 10668000 0 RND
+APERTURE_230 239 1905000 2667000 RECT
+APERTURE_231 240 1295400 2057400 RECT
+APERTURE_232 241 2628900 0 SQR
+APERTURE_233 242 2628900 0 RND
+APERTURE_234 243 2819400 2057400 RECT
+APERTURE_235 244 2819400 2438400 RECT
+APERTURE_236 245 2057400 2171700 RECT
+APERTURE_237 246 3200400 1676400 RECT
+APERTURE_238 247 723900 2438400 RECT
+APERTURE_239 248 6248400 4724400 RECT
+APERTURE_240 249 1104900 2057400 RECT
+APERTURE_241 250 3009900 1104900 RECT
+APERTURE_242 251 2628900 1066800 RECT
+APERTURE_243 252 2438400 1257300 RECT
+APERTURE_244 253 2438400 800100 RECT
+APERTURE_245 254 1866900 723900 RECT
+APERTURE_246 255 914400 2057400 RECT
+APERTURE_247 256 2057400 914400 RECT
+APERTURE_248 257 2247900 762000 RECT
+APERTURE_249 258 1866900 598170 RECT
+APERTURE_250 259 2247900 990600 RECT
+APERTURE_251 260 990600 2247900 RECT
+APERTURE_252 261 10820400 0 RND
+APERTURE_253 262 7010400 0 RND
+APERTURE_254 263 1066800 1752600 RECT
+APERTURE_255 264 1752600 1066800 RECT
+APERTURE_256 265 2133600 2247900 RECT
+APERTURE_257 266 2133600 2895600 RECT
+APERTURE_258 267 2705100 0 RND
+APERTURE_259 268 10896600 0 RND
+APERTURE_260 269 7086600 0 RND
+APERTURE_261 270 940513 0 RND
+APERTURE_262 271 1905000 4000500 RECT
+APERTURE_263 272 2133600 4229100 RECT
+APERTURE_264 273 1562186 0 RND
+APERTURE_265 274 1301822 0 RND
+APERTURE_266 275 1952733 0 RND
+APERTURE_267 276 2603644 0 RND
+APERTURE_268 277 1171640 0 RND
+APERTURE_269 278 4556378 0 RND
+APERTURE_270 279 1041457 0 RND
+APERTURE_271 280 3254555 0 RND
+APERTURE_272 281 762000 0 SQR
+APERTURE_273 282 130182 0 RND
+APERTURE_274 283 723900 0 SQR
+APERTURE_275 284 4724400 0 SQR
+APERTURE_276 285 131530 0 RND
+APERTURE_277 286 1578365 0 RND
+APERTURE_278 287 1315304 0 RND
+APERTURE_279 288 1972957 0 RND
+APERTURE_280 289 2630609 0 RND
+APERTURE_281 290 1183774 0 RND
+APERTURE_282 291 3288262 0 RND
+APERTURE_283 292 1052243 0 RND
+APERTURE_284 293 789182 0 RND
+APERTURE_285 294 7620000 0 RND
+APERTURE_286 295 2819400 0 SQR
+APERTURE_287 296 7772400 0 RND
+APERTURE_288 297 3962400 0 RND
+APERTURE_289 298 7848600 0 RND
+APERTURE_290 299 4038600 0 RND
+APERTURE_291 300 1709896 0 RND
+APERTURE_292 301 1841426 0 RND
+APERTURE_293 302 3124200 0 SQR
+APERTURE_294 303 800100 0 RND
+APERTURE_295 304 2743200 0 RND
+APERTURE_296 305 1600200 0 SQR
+APERTURE_297 306 1219200 0 SQR
+APERTURE_298 307 5791200 0 RND
+APERTURE_299 308 4648200 0 SQR
+APERTURE_300 309 521970 0 SQR
+APERTURE_301 310 3200400 0 SQR
+APERTURE_302 311 2133600 0 RND
+APERTURE_303 312 657652 0 RND
+APERTURE_304 313 441960 0 SQR
+APERTURE_305 314 1981200 0 SQR
+APERTURE_306 315 518160 0 SQR
+APERTURE_307 316 2552700 0 SQR
+APERTURE_308 317 1790700 0 SQR
+APERTURE_309 318 4267200 0 SQR
+APERTURE_310 319 5029200 0 SQR
+APERTURE_311 320 77861 0 RND
+APERTURE_312 321 778610 0 RND
+APERTURE_313 322 1012193 0 RND
+APERTURE_314 323 934332 0 RND
+APERTURE_315 324 1557220 0 RND
+APERTURE_316 325 700749 0 RND
+APERTURE_317 326 1167915 0 RND
+APERTURE_318 327 622888 0 RND
+APERTURE_319 328 1946525 0 RND
+APERTURE_320 329 467166 0 RND
+APERTURE_321 330 2857500 3429000 RECT
+APERTURE_322 331 12382500 0 RND
+APERTURE_323 332 4953000 1905000 RECT
+APERTURE_324 333 3810000 2476500 RECT
+APERTURE_325 334 2286000 2286000 RECT
+APERTURE_326 335 3048000 2286000 RECT
+APERTURE_327 336 4191000 3429000 RECT
+APERTURE_328 337 2286000 1143000 RECT
+APERTURE_329 338 647700 1714500 RECT
+APERTURE_330 339 4572000 2476500 RECT
+APERTURE_331 340 609600 990600 RECT
+APERTURE_332 341 131128 0 RND
+APERTURE_333 342 1311281 0 RND
+APERTURE_334 343 1704665 0 RND
+APERTURE_335 344 1573537 0 RND
+APERTURE_336 345 2622562 0 RND
+APERTURE_337 346 1180152 0 RND
+APERTURE_338 347 1966921 0 RND
+APERTURE_339 348 1049024 0 RND
+APERTURE_340 349 3278202 0 RND
+APERTURE_341 350 786768 0 RND
+APERTURE_342 351 457200 1333500 RECT
+APERTURE_343 352 3569970 2474976 RECT
+APERTURE_344 353 3429000 3429000 RECT
+APERTURE_345 354 7124700 0 RND
+APERTURE_346 355 685800 0 RND
+APERTURE_347 356 5105400 2057400 RECT
+APERTURE_348 357 2438400 2438400 RECT
+APERTURE_349 358 3200400 2438400 RECT
+APERTURE_350 359 3009900 3581400 RECT
+APERTURE_351 360 4343400 3581400 RECT
+APERTURE_352 361 609600 1485900 RECT
+APERTURE_353 362 3722370 2627376 RECT
+APERTURE_354 363 3581400 3581400 RECT
+APERTURE_355 364 7277100 0 RND
+APERTURE_356 365 762000 1143000 RECT
+APERTURE_357 366 3581400 0 RND
+APERTURE_358 367 685800 1905000 RECT
+APERTURE_359 368 1905000 685800 RECT
+APERTURE_360 369 838200 0 RND
+APERTURE_361 370 76200 0 RND
+APERTURE_362 371 838200 2057400 RECT
+APERTURE_363 372 2057400 838200 RECT
+}
+CAM_DRILL_SYMBOL_TABLE_EXTENDED PARENT
+{
+MARKER_SIZE 3048000
+MARKER_LINE_WIDTH 381000
+MARKER_CHAR_HEIGHT 1905000
+CHART_TEXT_HEIGHT 4572000
+CHART_LINE_WIDTH 381000
+SIZE_VALUES_SORTING_ORDER 0
+QUANTITY_VALUES_SORTING_ORDER 0
+PLATED_VALUES_SORTING_ORDER 0
+DEFAULT_TOLERANCE +/-0.003"
+DRILL_UNIT 2
+THROUGH_PARTIAL N
+NUMBER_1 7239000 N + 0 Y 0 0 
+NUMBER_2 2667000 N X 0 Y 0 0 
+NUMBER_3 3581400 P Rectangle 0 Y 0 0 
+NUMBER_4 457200 P Diamond 0 Y 0 0 
+NUMBER_5 2476500 N Hour_Glass 0 Y 0 0 
+NUMBER_6 2743200 N Bow_Tie 0 Y 0 0 
+NUMBER_7 1524000 P +A 0 Y 0 0 
+}
+}
